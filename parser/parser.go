@@ -165,12 +165,6 @@ func (p *Parser) setPeekError(t token.TokenType) {
 	p.errors = append(p.errors, msg)
 }
 
-func (p *Parser) setCurError(t token.TokenType) {
-	msg := fmt.Sprintf("[%d,%d] expected token to be %s, got %s",
-		p.curToken.Row, p.curToken.Column, t, p.curToken.Literal)
-	p.errors = append(p.errors, msg)
-}
-
 // entry point
 func (p *Parser) Parse() *ast.Program {
 	program := &ast.Program{}
