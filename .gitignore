@@ -1,2 +1,6 @@
 docs.md
 syntax.md
+.gitignore
+vm/**
+compiler/**
+code/**
