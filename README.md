@@ -40,7 +40,7 @@ To get started:
 1. Clone the repo 
 
     ```console
-    console git clone https://github.com/MohamedAbdeen21/Mist-Lang.git
+    git clone https://github.com/MohamedAbdeen21/Mist-Lang.git
     ```
 
 2. Install [Go programming language](https://go.dev/doc/install)
@@ -48,7 +48,7 @@ To get started:
 3. Install the dependencies 
 
     ```cosnole
-    console cd Mist-Lang && go mod tidy
+    cd Mist-Lang && go mod tidy
     ```
 
 # Usage
